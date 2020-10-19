@@ -5,11 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "formspree": "formspree deploy",
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.2",
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "@formspree/cli": "^0.9.5"
   }
 }

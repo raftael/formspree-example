@@ -1,0 +1,16 @@
+{
+    "forms": {
+        "myContactForm" : {
+            "name" : "Contact Me example",
+            "actions" : [{"type": "email", "to": "rafael.romang@gmail.com" }],
+            "fields" : {
+                "email": {
+                    "required" : true
+                },
+                "message": {
+                    "required": true
+                }
+            }
+        }
+    }
+}
