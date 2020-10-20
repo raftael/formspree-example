@@ -7,6 +7,7 @@
     "build": "next build",
     "formspree": "formspree deploy",
     "start": "next start",
+    "export": "next export",
     "deploy": "npm run build && npm run export && formspree deploy"
   },
   "dependencies": {
