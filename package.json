@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "formspree": "formspree deploy",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "@formspree/react": "^2.2.2",
